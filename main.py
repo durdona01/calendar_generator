@@ -75,6 +75,6 @@ def print_year(year):
 
 # ==========================
 year = int(input("Input the year: "))
-st = f" Calendar for {year}-year ".center(66, '*')
+st = f" Calendar for {year}-year ".center(64, '*')
 print('\n', st, '\n' )
 print_year(year)
